@@ -1,4 +1,4 @@
-if(gitalk)
+if(!gitalk)
 {
     var gitalk = new Gitalk({
         clientID: '8467726bf36fa0a756e5',
