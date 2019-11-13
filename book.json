@@ -3,7 +3,6 @@
     "description": "demo",
     "language": "zh",
     "styles": {
-      "website": "https://unpkg.com/gitalk/dist/gitalk.css"
     },
     "plugins": ["tbfed-pagefooter"],
     "pluginsConfig": {
