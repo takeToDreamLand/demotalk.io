@@ -6,7 +6,7 @@ if(!gitalk)
         repo: 'demotalk.io',
         owner: 'takeToDreamLand',
         admin: ['takeToDreamLand'],
-        id: location.pathname,
+        id: location.href,
         distractionFreeMode: false
     });
 }
