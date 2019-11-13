@@ -3,6 +3,8 @@
 This is first post in chapter1
 
 <div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 <script>
     const gitalk = new Gitalk({
     clientID: '8467726bf36fa0a756e5',
