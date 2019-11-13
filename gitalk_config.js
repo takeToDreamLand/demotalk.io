@@ -9,6 +9,6 @@ if(!gitalk)
         id: location.pathname,
         distractionFreeMode: false
     });
-    consolelog(location.pathname);
+    console.log(location.pathname);
 }
 gitalk.render('gitalk-container');
