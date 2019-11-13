@@ -10,4 +10,5 @@ if(!gitalk)
         distractionFreeMode: false
     });
 }
+console.log(gitalk.id);
 gitalk.render('gitalk-container');
