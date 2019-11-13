@@ -1,4 +1,4 @@
-if(gitalk)
+if(!gitalk)
 {
     var gitalk = new Gitalk({
         clientID: '8467726bf36fa0a756e5',
@@ -6,7 +6,7 @@ if(gitalk)
         repo: 'https://github.com/takeToDreamLand/demotalk.io.git',
         owner: 'takeToDreamLand',
         admin: ['takeToDreamLand'],
-        id: windows.location.pathname,
+        id: location.pathname,
         distractionFreeMode: false
     });
 }
