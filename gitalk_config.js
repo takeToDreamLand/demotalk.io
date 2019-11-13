@@ -6,7 +6,7 @@ if(!gitalk)
         repo: 'https://github.com/takeToDreamLand/demotalk.io.git',
         owner: 'takeToDreamLand',
         admin: ['takeToDreamLand'],
-        id: windows.location.pathname,
+        id: location.pathname,
         distractionFreeMode: false
     });
 }
