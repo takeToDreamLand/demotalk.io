@@ -1,7 +1,7 @@
 {
     "title": "demotalk",
     "description": "demo",
-    "language": "zh",
+    "language": "zh-hans",
     "styles": {
     },
     "plugins": ["gtalk"],
