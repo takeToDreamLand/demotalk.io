@@ -1,7 +1,6 @@
 module.exports = function(book, page) {
   var cfg = book.config.get('pluginsConfig')['gtalk'];
   cfg.id = '/' + page.path.slice(0, page.path.length-2) + 'html';
-
   var DOM = '\n\n'
     + '<div id="gitalk-container"></div>'
     + '<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>'
